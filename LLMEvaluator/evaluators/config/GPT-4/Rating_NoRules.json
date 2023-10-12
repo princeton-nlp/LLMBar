@@ -1,0 +1,12 @@
+[
+    {
+        "prompt" : "rating/Rating_NoRules.txt",
+        "model_name" : "gpt-4",
+        "openai_kwargs" : {
+            "engine" : "gpt-4",
+            "max_tokens" : 50,
+            "temperature" : 0.0
+        },
+        "parsing" : null
+    }
+]

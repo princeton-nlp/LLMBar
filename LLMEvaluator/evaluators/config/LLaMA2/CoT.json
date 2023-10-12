@@ -1,0 +1,13 @@
+[
+    {
+        "prompt" : "comparison/CoT.txt",
+        "model_name" : "meta-llama/Llama-2-70b-chat-hf",
+        "generate_kwargs" : {
+            "max_new_tokens" : 300
+        },
+        "parsing" : {
+            "1" : "Output \\(a\\) is better.",
+            "2" : "Output \\(b\\) is better."
+        }
+    }
+]

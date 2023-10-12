@@ -1,0 +1,27 @@
+[
+    {
+        "prompt" : "auxiliary/Reference.txt",
+        "model_name" : "gpt-3.5-turbo",
+        "openai_kwargs" : {
+            "engine" : "gpt-35-turbo-0301",
+            "max_tokens" : 384,
+            "temperature" : 0.0
+        },
+        "parsing" : null
+    },
+    {
+        "prompt" : "comparison/Reference.txt",
+        "model_name" : "gpt-3.5-turbo",
+        "openai_kwargs" : {
+            "engine" : "gpt-35-turbo-0301",
+            "max_tokens" : 50,
+            "temperature" : 0.0,
+            "tokens_to_avoid" : ["Both", "Neither", "None", " Both", " Neither", "Either", "depends", "context", "It", "both", "Sorry"],
+            "tokens_to_favor" : ["Output (a)", "Output (b)"]
+        },
+        "parsing" : {
+            "1" : "(?:^|\\n) ?Output \\(a\\)",
+            "2" : "(?:^|\\n) ?Output \\(b\\)"
+        }
+    }
+]

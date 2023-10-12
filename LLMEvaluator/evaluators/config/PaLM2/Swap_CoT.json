@@ -1,0 +1,28 @@
+[
+    {
+        "prompt" : "comparison/CoT.txt",
+        "model_name" : "PaLM2-text-bison-001",
+        "palm_kwargs" : {
+            "model" : "models/text-bison-001",
+            "max_output_tokens" : 300,
+            "temperature" : 0.0
+        },
+        "parsing" : {
+            "1" : "Output \\(a\\) is better.",
+            "2" : "Output \\(b\\) is better."
+        }
+    },
+    {
+        "prompt" : "swap_and_synthesize/Swap_CoT.txt",
+        "model_name" : "PaLM2-text-bison-001",
+        "palm_kwargs" : {
+            "model" : "models/text-bison-001",
+            "max_output_tokens" : 300,
+            "temperature" : 0.0
+        },
+        "parsing" : {
+            "1" : "Output \\(a\\) is better.",
+            "2" : "Output \\(b\\) is better."
+        }
+    }
+]

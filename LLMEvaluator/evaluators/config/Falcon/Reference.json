@@ -1,0 +1,21 @@
+[
+    {
+        "prompt" : "auxiliary/Reference.txt",
+        "model_name" : "tiiuae/falcon-180B-chat",
+        "generate_kwargs" : {
+            "max_new_tokens" : 384
+        },
+        "parsing" : null
+    },
+    {
+        "prompt" : "comparison/Reference.txt",
+        "model_name" : "tiiuae/falcon-180B-chat",
+        "generate_kwargs" : {
+            "max_new_tokens" : 50
+        },
+        "parsing" : {
+            "1" : "(?:^|\\n) ?Output \\(a\\)",
+            "2" : "(?:^|\\n) ?Output \\(b\\)"
+        }
+    }
+]

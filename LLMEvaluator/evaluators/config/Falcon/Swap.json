@@ -1,0 +1,24 @@
+[
+    {
+        "prompt" : "comparison/CoT.txt",
+        "model_name" : "tiiuae/falcon-180B-chat",
+        "generate_kwargs" : {
+            "max_new_tokens" : 300
+        },
+        "parsing" : {
+            "1" : "Output \\(a\\) is better.",
+            "2" : "Output \\(b\\) is better."
+        }
+    },
+    {
+        "prompt" : "swap_and_synthesize/Swap.txt",
+        "model_name" : "tiiuae/falcon-180B-chat",
+        "generate_kwargs" : {
+            "max_new_tokens" : 50
+        },
+        "parsing" : {
+            "1" : "(?:^|\\n) ?Output \\(a\\)",
+            "2" : "(?:^|\\n) ?Output \\(b\\)"
+        }
+    }
+]

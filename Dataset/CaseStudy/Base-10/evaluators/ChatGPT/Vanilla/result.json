@@ -1,0 +1,1298 @@
+[
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 75+48? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 5+8=13. So the ones digit of the final sum is 3. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+4=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{123}.",
+    "output_2": "We add the ones digits first. In base-10, 5+8=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+4=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{134}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 85+45? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 5+5=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+4=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{130}.",
+    "output_2": "We add the ones digits first. In base-10, 5+5=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+4=13. Since we carried over the 1, 13+1=14. So the hundreds and tens digits of the final sum are 14. Putting the digits of the final sum together, we get \\\\boxed{141}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 25+81? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 5+1=6. So the ones digit of the final sum is 6. We do not need to carry any digits over. Then we add the tens digits. In base-10, 2+8=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{116}.",
+    "output_2": "We add the ones digits first. In base-10, 5+1=6. So the ones digit of the final sum is 6. Then we add the tens digits. In base-10, 2+8=10. So the tens digit of the final sum is 0. We need to carry over the 1 to the hundreds place. Since there are no hundreds digits in this case, we simply write the carried over 1 as the hundreds digit of the final sum. Putting the digits of the final sum together, we get \\\\boxed{106}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 27+64? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+4=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+6=8. Since we carried over the 1, 8+1=9. So the tens digit of the final sum is 9. Putting the digits of the final sum together, we get \\\\boxed{91}.",
+    "output_2": "We add the ones digits first. In base-10, 7+4=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+6=8. Since we carried over the 1, 8+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{102}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+54? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+4=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+5=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "output_2": "We add the ones digits first. In base-10, 7+4=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+5=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{132}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 81+31? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 1+1=2. So the ones digit of the final sum is 2. Then we add the tens digits. In base-10, 8+3=11. So the tens digit of the final sum is 1. Putting the digits of the final sum together, we get \\\\boxed{112}.",
+    "output_2": "We add the ones digits first. In base-10, 1+1=2. So the ones digit of the final sum is 2. We do not need to carry any digits over. Then we add the tens digits. In base-10, 8+3=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{122}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 77+24? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+4=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+2=9. Since we carried over the 1, 9+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{101}.",
+    "output_2": "We add the ones digits first. In base-10, 7+4=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+2=9. Since we carried over the 1, 9+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{112}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+17? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+1=7. Since we carried over the 1, 7+1=8. So the hundreds and tens digits of the final sum are 8. Putting the digits of the final sum together, we get \\\\boxed{84}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+1=7. Since we carried over the 1, 7+1=8. So the tens digit of the final sum is 8. Putting the digits of the final sum together, we get \\\\boxed{85}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 77+84? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+4=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+8=15. Since we carried over the 1, 15+1=16. So the hundreds and tens digits of the final sum are 16. Putting the digits of the final sum together, we get \\\\boxed{161}.",
+    "output_2": "We add the ones digits first. In base-10, 7+4=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+8=16. Since we carried over the 1, 16+1=17. So the hundreds and tens digits of the final sum are 17. Putting the digits of the final sum together, we get \\\\boxed{172}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 77+87? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+8=16. Since we carried over the 1, 16+1=17. So the hundreds and tens digits of the final sum are 17. Putting the digits of the final sum together, we get \\\\boxed{175}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+8=15. Since we carried over the 1, 15+1=16. So the hundreds and tens digits of the final sum are 16. Putting the digits of the final sum together, we get \\\\boxed{164}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 86+35? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+5=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{132}.",
+    "output_2": "We add the ones digits first. In base-10, 6+5=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+13? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+3=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+1=7. Since we carried over the 1, 7+1=8. So the tens digit of the final sum is 8. Putting the digits of the final sum together, we get \\\\boxed{80}.",
+    "output_2": "We add the ones digits first. In base-10, 7+3=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+1=7. Since we carried over the 1, 7+1=8. So the tens digit of the final sum is 8. Putting the digits of the final sum together, we get \\\\boxed{81}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 27+47? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+4=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{75}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+4=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{74}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 36+58? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+8=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 3+5=8. Since we carried over the 1, 8+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{105}.",
+    "output_2": "We add the ones digits first. In base-10, 6+8=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 3+5=8. Since we carried over the 1, 8+1=9. So the tens digit of the final sum is 9. Putting the digits of the final sum together, we get \\\\boxed{94}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 88+87? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 8+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+8=16. Since we carried over the 1, 16+1=17. So the hundreds and tens digits of the final sum are 17. Putting the digits of the final sum together, we get \\\\boxed{175}.",
+    "output_2": "We add the ones digits first. In base-10, 8+7=16. So the ones digit of the final sum is 6. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+8=17. Since we carried over the 1, 17+1=18. So the hundreds and tens digits of the final sum are 18. Putting the digits of the final sum together, we get \\\\boxed{186}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 85+36? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 5+6=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{132}.",
+    "output_2": "We add the ones digits first. In base-10, 5+6=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 76+47? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+7=13. So the ones digit of the final sum is 3. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+4=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{123}.",
+    "output_2": "We add the ones digits first. In base-10, 6+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+4=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{134}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 76+71? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+1=7. So the ones digit of the final sum is 7. We do not need to carry any digits over. Then we add the tens digits. In base-10, 7+7=15. So the hundreds and tens digits of the final sum are 15. Putting the digits of the final sum together, we get \\\\boxed{157}.",
+    "output_2": "We add the ones digits first. In base-10, 6+1=7. So the ones digit of the final sum is 7. We don't need to carry over any digits to the tens place. Then we add the tens digits. In base-10, 7+7=14. So the hundreds and tens digits of the final sum are 14. Putting the digits of the final sum together, we get \\\\boxed{147}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 77+67? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+6=14. Since we carried over the 1, 14+1=15. So the hundreds and tens digits of the final sum are 15. Putting the digits of the final sum together, we get \\\\boxed{155}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+6=13. Since we carried over the 1, 13+1=14. So the hundreds and tens digits of the final sum are 14. Putting the digits of the final sum together, we get \\\\boxed{144}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 84+27? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 4+7=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+2=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{111}.",
+    "output_2": "We add the ones digits first. In base-10, 4+7=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+2=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{122}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 13+77? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 3+7=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+7=8. Since we carried over the 1, 8+1=9. So the tens digit of the final sum is 9. Putting the digits of the final sum together, we get \\\\boxed{90}.",
+    "output_2": "We add the ones digits first. In base-10, 3+7=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+7=8. Since we carried over the 1, 8+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{101}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+57? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+5=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{135}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+5=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{124}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 87+64? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+4=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+6=14. Since we carried over the 1, 14+1=15. So the hundreds and tens digits of the final sum are 15. Putting the digits of the final sum together, we get \\\\boxed{151}.",
+    "output_2": "We add the ones digits first. In base-10, 7+4=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+6=15. Since we carried over the 1, 15+1=16. So the hundreds and tens digits of the final sum are 16. Putting the digits of the final sum together, we get \\\\boxed{162}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 66+38? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+8=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+3=9. Since we carried over the 1, 9+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{104}.",
+    "output_2": "We add the ones digits first. In base-10, 6+8=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+3=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{115}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 56+58? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+8=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+5=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{114}.",
+    "output_2": "We add the ones digits first. In base-10, 6+8=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+5=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{125}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 18+63? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 8+3=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+6=7. Since we carried over the 1, 7+1=8. So the tens digit of the final sum is 8. Putting the digits of the final sum together, we get \\\\boxed{82}.",
+    "output_2": "We add the ones digits first. In base-10, 8+3=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+6=7. Since we carried over the 1, 7+1=8. So the tens digit of the final sum is 8. Putting the digits of the final sum together, we get \\\\boxed{81}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 26+14? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+4=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+1=3. Since we carried over the 1, 3+1=4. So the tens digit of the final sum is 4. Putting the digits of the final sum together, we get \\\\boxed{40}.",
+    "output_2": "We add the ones digits first. In base-10, 6+4=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+1=3. Since we carried over the 1, 3+1=4. So the tens digit of the final sum is 4. Putting the digits of the final sum together, we get \\\\boxed{41}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+43? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+3=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+4=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{110}.",
+    "output_2": "We add the ones digits first. In base-10, 7+3=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+4=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 84+37? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 4+7=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "output_2": "We add the ones digits first. In base-10, 4+7=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{132}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 76+44? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+4=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+4=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{131}.",
+    "output_2": "We add the ones digits first. In base-10, 6+4=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+4=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{120}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 86+16? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+6=13. So the ones digit of the final sum is 3. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+1=9. Since we carried over the 1, 9+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{113}.",
+    "output_2": "We add the ones digits first. In base-10, 6+6=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+1=9. Since we carried over the 1, 9+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{102}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 88+38? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 8+8=17. So the ones digit of the final sum is 7. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{137}.",
+    "output_2": "We add the ones digits first. In base-10, 8+8=16. So the ones digit of the final sum is 6. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+3=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{126}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 31+87? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 1+7=8. So the ones digit of the final sum is 8. We don't need to carry over any digits to the tens place. Then we add the tens digits. In base-10, 3+8=11. So the tens digit of the final sum is 1. Putting the digits of the final sum together, we get \\\\boxed{118}.",
+    "output_2": "We add the ones digits first. In base-10, 1+7=8. So the ones digit of the final sum is 8. We do not need to carry any digits over. Then we add the tens digits. In base-10, 3+8=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{128}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 85+65? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 5+5=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+6=15. Since we carried over the 1, 15+1=16. So the hundreds and tens digits of the final sum are 16. Putting the digits of the final sum together, we get \\\\boxed{161}.",
+    "output_2": "We add the ones digits first. In base-10, 5+5=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+6=14. Since we carried over the 1, 14+1=15. So the hundreds and tens digits of the final sum are 15. Putting the digits of the final sum together, we get \\\\boxed{150}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 86+86? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 6+6=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+8=16. Since we carried over the 1, 16+1=17. So the hundreds and tens digits of the final sum are 17. Putting the digits of the final sum together, we get \\\\boxed{172}.",
+    "output_2": "We add the ones digits first. In base-10, 6+6=13. So the ones digit of the final sum is 3. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+8=17. Since we carried over the 1, 17+1=18. So the hundreds and tens digits of the final sum are 18. Putting the digits of the final sum together, we get \\\\boxed{183}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+67? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+6=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{134}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+6=13. Since we carried over the 1, 13+1=14. So the hundreds and tens digits of the final sum are 14. Putting the digits of the final sum together, we get \\\\boxed{145}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 64+57? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 4+7=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+5=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{132}.",
+    "output_2": "We add the ones digits first. In base-10, 4+7=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+5=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 78+88? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 8+8=16. So the ones digit of the final sum is 6. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+8=15. Since we carried over the 1, 15+1=16. So the hundreds and tens digits of the final sum are 16. Putting the digits of the final sum together, we get \\\\boxed{166}.",
+    "output_2": "We add the ones digits first. In base-10, 8+8=17. So the ones digit of the final sum is 7. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 7+8=16. Since we carried over the 1, 16+1=17. So the hundreds and tens digits of the final sum are 17. Putting the digits of the final sum together, we get \\\\boxed{177}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 15+58? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 5+8=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+5=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{74}.",
+    "output_2": "We add the ones digits first. In base-10, 5+8=13. So the ones digit of the final sum is 3. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+5+1=7. So the hundreds and tens digits of the final sum are 7. Putting the digits of the final sum together, we get \\\\boxed{73}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 28+78? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 8+8=17. So the ones digit of the final sum is 7. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+7=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{117}.",
+    "output_2": "We add the ones digits first. In base-10, 8+8=16. So the ones digit of the final sum is 6. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+7=9. Since we carried over the 1, 9+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{106}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 54+80? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 4+0=4. So the ones digit of the final sum is 4. We do not need to carry any digits over. Then we add the tens digits. In base-10, 5+8=14. So the hundreds and tens digits of the final sum are 14. Putting the digits of the final sum together, we get \\\\boxed{144}.",
+    "output_2": "We add the ones digits first. In base-10, 4+0=4. So the ones digit of the final sum is 4. Then we add the tens digits. In base-10, 5+8=13. So the tens digit of the final sum is 3. Putting the digits of the final sum together, we get \\\\boxed{134}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 15+55? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 5+5=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+5=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{71}.",
+    "output_2": "We add the ones digits first. In base-10, 5+5=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 1+5=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{70}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 43+68? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 3+8=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 4+6=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{122}.",
+    "output_2": "We add the ones digits first. In base-10, 3+8=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 4+6=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{111}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 27+83? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+3=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+8=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{110}.",
+    "output_2": "We add the ones digits first. In base-10, 7+3=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 2+8=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 71+74? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 1+4=5. So the ones digit of the final sum is 5. We do not need to carry any digits over. Then we add the tens digits. In base-10, 7+7=15. So the hundreds and tens digits of the final sum are 15. Putting the digits of the final sum together, we get \\\\boxed{155}.",
+    "output_2": "We add the ones digits first. In base-10, 1+4=5. So the ones digit of the final sum is 5. Then we add the tens digits. In base-10, 7+7=14. Since we carried over the 1, 14+1=15. So the hundreds and tens digits of the final sum are 15. Putting the digits of the final sum together, we get \\\\boxed{145}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 54+16? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 4+6=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+1=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{71}.",
+    "output_2": "We add the ones digits first. In base-10, 4+6=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+1=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{70}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 84+58? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 4+8=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+5=13. Since we carried over the 1, 13+1=14. So the hundreds and tens digits of the final sum are 14. Putting the digits of the final sum together, we get \\\\boxed{142}.",
+    "output_2": "We add the ones digits first. In base-10, 4+8=13. So the ones digit of the final sum is 3. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+5=14. Since we carried over the 1, 14+1=15. So the hundreds and tens digits of the final sum are 15. Putting the digits of the final sum together, we get \\\\boxed{153}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 47+47? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 4+4=8. Since we carried over the 1, 8+1=9. So the tens digit of the final sum is 9. Putting the digits of the final sum together, we get \\\\boxed{94}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 4+4=8. Since we carried over the 1, 8+1=10. So the hundreds and tens digits of the final sum are 10. Putting the digits of the final sum together, we get \\\\boxed{105}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+47? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+4=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{125}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+4=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{114}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 57+67? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+6=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{124}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+6=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{135}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 83+88? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 3+8=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+8=16. Since we carried over the 1, 16+1=17. So the hundreds and tens digits of the final sum are 17. Putting the digits of the final sum together, we get \\\\boxed{171}.",
+    "output_2": "We add the ones digits first. In base-10, 3+8=12. So the ones digit of the final sum is 2. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 8+8=17. Since we carried over the 1, 17+1=18. So the hundreds and tens digits of the final sum are 18. Putting the digits of the final sum together, we get \\\\boxed{182}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 37+37? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 3+3=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{75}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 3+3=6. Since we carried over the 1, 6+1=7. So the tens digit of the final sum is 7. Putting the digits of the final sum together, we get \\\\boxed{74}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 57+53? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+3=10. So the ones digit of the final sum is 0. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+5=10. Since we carried over the 1, 10+1=11. So the hundreds and tens digits of the final sum are 11. Putting the digits of the final sum together, we get \\\\boxed{110}.",
+    "output_2": "We add the ones digits first. In base-10, 7+3=11. So the ones digit of the final sum is 1. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 5+5=11. Since we carried over the 1, 11+1=12. So the hundreds and tens digits of the final sum are 12. Putting the digits of the final sum together, we get \\\\boxed{121}.",
+    "label": 1,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  },
+  {
+    "input": "You are a mathematician. Assuming that all numbers are in base-10 where the digits are \"0123456789\", what is 67+67? Let's think step by step, and end the response with the result in \"\\\\boxed{result}\".",
+    "output_1": "We add the ones digits first. In base-10, 7+7=15. So the ones digit of the final sum is 5. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+6=13. Since we carried over the 1, 13+1=14. So the hundreds and tens digits of the final sum are 14. Putting the digits of the final sum together, we get \\\\boxed{145}.",
+    "output_2": "We add the ones digits first. In base-10, 7+7=14. So the ones digit of the final sum is 4. We need to carry over the 1 to the tens place. Then we add the tens digits. In base-10, 6+6=12. Since we carried over the 1, 12+1=13. So the hundreds and tens digits of the final sum are 13. Putting the digits of the final sum together, we get \\\\boxed{134}.",
+    "label": 2,
+    "results": [
+      {
+        "swap = False": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "1"
+        },
+        "swap = True": {
+          "completion": [
+            "Output (a)",
+            "stop"
+          ],
+          "winner": "2"
+        }
+      }
+    ]
+  }
+]

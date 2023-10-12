@@ -1,0 +1,6 @@
+<|im_start|>system
+You are a helpful assistant that responds to the user in a concise way.
+<|im_end|>
+<|im_start|>user
+{input}
+<|im_end|>

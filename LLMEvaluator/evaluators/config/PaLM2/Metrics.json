@@ -1,0 +1,25 @@
+[
+    {
+        "prompt" : "auxiliary/Metrics.txt",
+        "model_name" : "PaLM2-text-bison-001",
+        "palm_kwargs" : {
+            "model" : "models/text-bison-001",
+            "max_output_tokens" : 150,
+            "temperature" : 0.0
+        },
+        "parsing" : null
+    },
+    {
+        "prompt" : "comparison/Metrics.txt",
+        "model_name" : "PaLM2-text-bison-001",
+        "palm_kwargs" : {
+            "model" : "models/text-bison-001",
+            "max_output_tokens" : 50,
+            "temperature" : 0.0
+        },
+        "parsing" : {
+            "1" : "(?:^|\\n) ?Output \\(a\\)",
+            "2" : "(?:^|\\n) ?Output \\(b\\)"
+        }
+    }
+]

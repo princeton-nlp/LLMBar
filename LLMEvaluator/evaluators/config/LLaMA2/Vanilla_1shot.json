@@ -1,0 +1,13 @@
+[
+    {
+        "prompt" : "comparison/Vanilla_1shot.txt",
+        "model_name" : "meta-llama/Llama-2-70b-chat-hf",
+        "generate_kwargs" : {
+            "max_new_tokens" : 50
+        },
+        "parsing" : {
+            "1" : "(?:^|\\n) ?Output \\(a\\)",
+            "2" : "(?:^|\\n) ?Output \\(b\\)"
+        }
+    }
+]

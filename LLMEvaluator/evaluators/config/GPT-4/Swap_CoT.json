@@ -1,0 +1,30 @@
+[
+    {
+        "prompt" : "comparison/CoT.txt",
+        "model_name" : "gpt-4",
+        "openai_kwargs" : {
+            "engine" : "gpt-4",
+            "max_tokens" : 300,
+            "temperature" : 0.0,
+            "tokens_to_avoid" : ["Both", "Neither", "None", " Both", " Neither", "Either", "depends", "context", "It", "both", "Sorry"]
+        },
+        "parsing" : {
+            "1" : "Output \\(a\\) is better.",
+            "2" : "Output \\(b\\) is better."
+        }
+    },
+    {
+        "prompt" : "swap_and_synthesize/Swap_CoT.txt",
+        "model_name" : "gpt-4",
+        "openai_kwargs" : {
+            "engine" : "gpt-4",
+            "max_tokens" : 300,
+            "temperature" : 0.0,
+            "tokens_to_avoid" : ["Both", "Neither", "None", " Both", " Neither", "Either", "depends", "context", "It", "both", "Sorry"]
+        },
+        "parsing" : {
+            "1" : "Output \\(a\\) is better.",
+            "2" : "Output \\(b\\) is better."
+        }
+    }
+]

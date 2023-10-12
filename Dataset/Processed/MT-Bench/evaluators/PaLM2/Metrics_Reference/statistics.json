@@ -1,0 +1,11 @@
+{
+  "correct_False": "133 / 200 = 66.5%",
+  "correct_True": "134 / 200 = 67.0%",
+  "correct_average": "66.75%",
+  "correct_both": "108 / 200 = 54.0%",
+  "equal": "148 / 200 = 74.0%",
+  "kappa_False": 0.12910358904575603,
+  "kappa_True": 0.12425434699834992,
+  "kappa_average": 0.12667896802205297,
+  "kappa_agreement": 0.49404761904761907
+}

@@ -1,0 +1,18 @@
+<|im_start|>system
+You are a helpful assistant in evaluating the quality of the outputs for a given instruction.
+<|im_end|>
+<|im_start|>user
+Please propose at most three concise questions about whether a potential output is a good output for a given instruction. Another assistant will evaluate different aspects of the output by answering all the questions.
+
+Here are some rules of the evaluation:
+(1) You should prioritize evaluating whether the output honestly/precisely/closely executes the instruction.
+(2) Outputs should NOT contain more/less than what the instruction asks for, as such outputs do NOT precisely execute the instruction.
+
+# Instruction:
+{input}
+
+# Requirements for Your Output:
+(1) The questions should **specifically** target the given instruction instead of some general standards, so the questions may revolve around key points of the instruction.
+(2) You should directly give the questions without any other words.
+(3) Questions are presented from most important to least important.
+<|im_end|>

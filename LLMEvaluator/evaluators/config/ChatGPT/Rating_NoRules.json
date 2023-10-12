@@ -1,0 +1,12 @@
+[
+    {
+        "prompt" : "rating/Rating_NoRules.txt",
+        "model_name" : "gpt-3.5-turbo",
+        "openai_kwargs" : {
+            "engine" : "gpt-35-turbo-0613",
+            "max_tokens" : 50,
+            "temperature" : 0.0
+        },
+        "parsing" : null
+    }
+]

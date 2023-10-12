@@ -1,0 +1,11 @@
+{
+  "correct_False": "94 / 100 = 94.0%",
+  "correct_True": "95 / 100 = 95.0%",
+  "correct_average": "94.5%",
+  "correct_both": "93 / 100 = 93.0%",
+  "equal": "97 / 100 = 97.0%",
+  "kappa_False": 0.2639842983316977,
+  "kappa_True": 0.2631070306837401,
+  "kappa_average": 0.2635456645077189,
+  "kappa_agreement": 0.9386753883892068
+}
