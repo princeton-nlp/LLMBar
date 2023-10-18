@@ -1,23 +1,18 @@
 # Evaluating Large Language Models at Evaluating Instruction Following
 
-This repository contains the data and code for *[Evaluating Large Language Models at Evaluating Instruction Following](https://arxiv.org/abs/2310.07641)*.
-In this paper, we introduce a challenging meta-evaluation benchmark, LLMBar, designed to test the ability of an LLM evaluator to discern instruction-following outputs.
-LLMBar consists of 419 instances, where each entry consists of an instruction paired with two outputs: one faithfully and correctly follows the instruction and the other deviates from it.
+This repository contains the data and code for paper *[Evaluating Large Language Models at Evaluating Instruction Following](https://arxiv.org/abs/2310.07641)*.
+In this paper, we introduce a challenging meta-evaluation benchmark, LLMBar, designed to test the ability of an LLM evaluator in discerning instruction-following outputs.
+LLMBar consists of 419 instances, where each entry contains an instruction paired with two outputs: one faithfully and correctly follows the instruction and the other deviates from it.
 There is also a gold preference label indicating which output is objectively better for each instance.
-
-We provide the evaluation data used to evaluate LLM evaluators in our paper.
-This repository also includes code to reproduce the baselines in our paper.
 
 ## Quick Links
 
-- [Evaluating Large Language Models at Evaluating Instruction Following](#evaluating-large-language-models-at-evaluating-instruction-following)
-  - [Quick Links](#quick-links)
-  - [Requirements](#requirements)
-  - [Data](#data)
-  - [Code Structure](#code-structure)
-  - [Reproducing Baselines](#reproducing-baselines)
-  - [Bug or Questions?](#bug-or-questions)
-  - [Citation](#citation)
+- [Requirements](#requirements)
+- [Data](#data)
+- [Code Structure](#code-structure)
+- [Reproducing Baselines](#reproducing-baselines)
+- [Bug or Questions?](#bug-or-questions)
+- [Citation](#citation)
 
 ## Requirements
 
@@ -26,11 +21,10 @@ Please install the packages by `pip install -r requirements.txt`. This codebase 
 ## Data
 
 All the data are stored in `Dataset/`.
-
 The Natural set of LLMBar is stored in `Dataset/Natural`.
 The four subsets of LLMBar Adversarial set are stored in `Dataset/LLMBar/Adversarial/{Neighbor, GPTInst, GPTOut, Manual}`.
 
-The five evaluation subsets we studied in *4.6 CASE STUDY: A MORE CHALLENGING META-EVALUATION SET* are stored in `Dataset/CaseStudy/{Constraint, Negation, Normal, Base-9, Base-10}`.
+The five evaluation subsets we studied in *4.6 Case Study: A More Challenging Meta-Evaluation Set* are stored in `Dataset/CaseStudy/{Constraint, Negation, Normal, Base-9, Base-10}`.
 
 We also evaluate LLM evaluators on FairEval, LLMEval $^2$, and MT-Bench.
 We remove LLMEval $^2$ instances whose instructions are empty or non-English and add the task description before the raw input to get the instruction.
@@ -62,9 +56,9 @@ All the codes are stored in `LLMEvaluator/`.
 * `evaluators/config`: folder that contains all config files to reproduce baselines.
 * `evaluators/prompts`: folder that contains all prompt files.
 
-## Reproducing Baselines
+## Run LLM Evaluators
 
-You can reproduce baselines from our paper by
+You can reproduce LLM evaluators from our paper by
 ```bash
 cd LLMEvaluator
 
@@ -145,8 +139,9 @@ Please cite our paper if you use this repo in your work:
 
 ```bibtex
 @article{zeng2023llmbar,
-   title={Evaluating Large Language Models at Evaluating Instruction Following},
-   author={Zeng, Zhiyuan and Yu, Jiatong and Gao, Tianyu and Meng, Yu and Goyal, Tanya and Chen, Danqi},
-   year={2023}
+  title={Evaluating Large Language Models at Evaluating Instruction Following},
+  author={Zeng, Zhiyuan and Yu, Jiatong and Gao, Tianyu and Meng, Yu and Goyal, Tanya and Chen, Danqi},
+  journal={arXiv preprint arXiv:2310.07641},
+  year={2023}
 }
 ```
