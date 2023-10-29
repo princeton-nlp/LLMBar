@@ -24,7 +24,7 @@ All the data are stored in `Dataset/`.
 The Natural set of LLMBar is stored in `Dataset/Natural`.
 The four subsets of LLMBar Adversarial set are stored in `Dataset/LLMBar/Adversarial/{Neighbor, GPTInst, GPTOut, Manual}`.
 
-The five evaluation subsets we studied in *4.6 Case Study: A More Challenging Meta-Evaluation Set* are stored in `Dataset/CaseStudy/{Constraint, Negation, Normal, Base-9, Base-10}`.
+The five evaluation subsets we studied in *4.6 Case Study: A More Challenging Meta-Evaluation Set* are stored in `Dataset/CaseStudy/{Constraint, Negation, Normal, Base_9, Base_10}`.
 
 We also evaluate LLM evaluators on FairEval, LLMEval $^2$, and MT-Bench.
 We remove LLMEval $^2$ instances whose instructions are empty or non-English and add the task description before the raw input to get the instruction.
