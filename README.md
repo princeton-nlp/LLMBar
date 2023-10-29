@@ -9,6 +9,7 @@ There is also a gold preference label indicating which output is objectively bet
 
 - [Requirements](#requirements)
 - [Data](#data)
+- [Hugging Face Datasets](#hugging-face-datasets)
 - [Code Structure](#code-structure)
 - [Reproducing Baselines](#reproducing-baselines)
 - [Bug or Questions?](#bug-or-questions)
@@ -47,6 +48,16 @@ Each instance is a JSON object with the format:
 `"input"` is the input instruction.
 `"output_1"` and `"output_2"` are the two evaluated outputs $O_1$ and $O_2$  respectively.
 `label` is either `1` or `2`, indicating which output is objectively better.
+
+## Hugging Face Datasets
+
+Our dataset is now available on Hugging Face Datasets! You can access and utilize it using the 🤗 Datasets library.
+
+```python
+from datasets import load_dataset
+LLMBar = load_dataset("princeton-nlp/LLMBar", "LLMBar")
+CaseStudy = load_dataset("princeton-nlp/LLMBar", "CaseStudy")
+```
 
 ## Code Structure
 
