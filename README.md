@@ -11,7 +11,7 @@ There is also a gold preference label indicating which output is objectively bet
 - [Data](#data)
 - [Hugging Face Datasets](#hugging-face-datasets)
 - [Code Structure](#code-structure)
-- [Reproducing Baselines](#reproducing-baselines)
+- [Run LLM Evaluators](#run-llm-evaluators)
 - [Bug or Questions?](#bug-or-questions)
 - [Citation](#citation)
 
