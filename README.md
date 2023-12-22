@@ -51,7 +51,7 @@ Each instance is a JSON object with the format:
 
 ## Hugging Face Datasets
 
-Our dataset is now available on Hugging Face Datasets! You can access and utilize it using the 🤗 Datasets library.
+Our dataset is now available on [Hugging Face Datasets](https://huggingface.co/datasets/princeton-nlp/LLMBar)! You can access and utilize it using the 🤗 Datasets library.
 
 ```python
 from datasets import load_dataset
