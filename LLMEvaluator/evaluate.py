@@ -122,6 +122,7 @@ def get_modules(args) :
                     model = AutoModelForCausalLM.from_pretrained(config["model_name"], device_map = "auto", torch_dtype = torch.bfloat16, load_in_8bit = True, use_auth_token = args.hf_use_auth_token)
                 else :
                     raise NotImplementedError
+                model.eval()
                 model_and_tokenizer[config["model_name"]] = {
                     "tokenizer" : AutoTokenizer.from_pretrained(config["model_name"], use_auth_token = args.hf_use_auth_token),
                     "model" : model,
