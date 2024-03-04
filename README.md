@@ -149,10 +149,10 @@ Please try to specify the problem with details so we can help you better and qui
 Please cite our paper if you use this repo in your work:
 
 ```bibtex
-@article{zeng2023llmbar,
-  title={Evaluating Large Language Models at Evaluating Instruction Following},
-  author={Zeng, Zhiyuan and Yu, Jiatong and Gao, Tianyu and Meng, Yu and Goyal, Tanya and Chen, Danqi},
-  journal={arXiv preprint arXiv:2310.07641},
-  year={2023}
+@inproceedings{zeng2024llmbar,
+   title={Evaluating Large Language Models at Evaluating Instruction Following},
+   author={Zeng, Zhiyuan and Yu, Jiatong and Gao, Tianyu and Meng, Yu and Goyal, Tanya and Chen, Danqi},
+   booktitle = {International Conference on Learning Representations (ICLR)},
+   year={2024}
 }
 ```
