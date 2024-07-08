@@ -140,7 +140,7 @@ We have already put our results (reported in our paper) in the repository.
 
 ## Bug or Questions?
 
-If you have any questions related to the code or the paper, feel free to email Zhiyuan Zeng (`zhiyuan1zeng@gmail.com` or `zengzy20@mails.tsinghua.edu.cn`).
+If you have any questions related to the code or the paper, feel free to email Zhiyuan Zeng (`zhiyuan1zeng@gmail.com`).
 If you encounter any problems when using the code, or want to report a bug, you can open an issue.
 Please try to specify the problem with details so we can help you better and quicker!
 
